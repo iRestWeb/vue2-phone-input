@@ -1,0 +1,33 @@
+{
+  "name": "vue2-phone-input",
+  "version": "1.1.1",
+  "description": "Phone input with country list, country codes ..",
+  "main": "src/PhoneInput.vue",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iRestWeb/vue2-phone-input.git"
+  },
+  "keywords": [
+    "Vuejs",
+    "Vue",
+    "js",
+    "Vuejs2",
+    "Vue2",
+    "input",
+    "country",
+    "countries",
+    "phone",
+    "list",
+    "dial",
+    "code",
+    "code",
+    "dial"
+  ],
+  "author": "Islam Saadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iRestWeb/vue2-phone-input/issues"
+  },
+  "homepage": "https://github.com/iRestWeb/vue2-phone-input#readme"
+}
