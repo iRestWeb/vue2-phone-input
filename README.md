@@ -38,3 +38,7 @@ export default {
   </div>
 </template>
 ```
+
+## Thanks
+---------------
+Thanks to @sulieman-sh
