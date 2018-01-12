@@ -39,6 +39,6 @@ export default {
 </template>
 ```
 
-## Thanks
+## CREDITS
 ---------------
 Thanks to @sulieman-sh
