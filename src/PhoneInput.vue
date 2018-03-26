@@ -315,42 +315,42 @@
         phone: {
             type: Object,
         },
-      name: {
-        type: String,
-        default() {
-          counter += 1;
-          return `tel-input-${counter}`;
+        name: {
+            type: String,
+            default() {
+              counter += 1;
+              return `tel-input-${counter}`;
+            },
         },
-      },
-      value: {
-        type: [
-          Number,
-          String,
-        ],
-        default: '',
-      },
-      availbleOnly: {
-        type: Array,
-        default: null,
-      },
-      toFront: {
-        type: Array,
-        default() {
-          return [];
+        value: {
+            type: [
+              Number,
+              String,
+            ],
+            default: '',
         },
-      },
-      code: {
-        type: String,
-        default: null,
-      },
-      onChange: {
-        type: Function,
-        default: null,
-      },
-      onInit: {
-        type: Function,
-        default: null,
-      },
+        availableOnly: {
+            type: Array,
+            default: null,
+        },
+        toFront: {
+            type: Array,
+            default() {
+              return [];
+            },
+        },
+        code: {
+            type: String,
+            default: null,
+        },
+        onChange: {
+            type: Function,
+            default: null,
+        },
+        onInit: {
+            type: Function,
+            default: null,
+        },
     },
 
     data() {
