@@ -423,7 +423,7 @@
 
       setCode(code) {
         this.countryCode = code;
-        this.phone.codeCountry = countryCode;
+        this.phone.codeCountry = this.countryCode;
         let vm = this;
 
         Object.keys(phonesData).forEach((key, index) => {
